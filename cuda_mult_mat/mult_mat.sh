@@ -1,6 +1,6 @@
 #!/bin/sh
-#BATCH --job-name="estimate_pi"
-#SBATCH --output="estimate_pi.%j.out"
+#BATCH --job-name="mult_mat"
+#SBATCH --output="mult_mat.%j.out"
 #SBATCH --partition=gpu-shared
 #SBATCH --gres=gpu:k80:1
 #SBATCH --ntasks-per-node=6
